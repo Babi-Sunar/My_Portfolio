@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Babi_Sunar_portfolio</title>
+    <link rel="stylesheet" href="style.css" id="css-link">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <!-- navbar -->
+        <nav class="navbar" id="navbar">
+            <div class="nav-container">
+                <!-- logo -->
+                <div class="sun-byte" title="My brand name">
+                    <a href="#first-section">
+                        <span class="sun">Sun</span><span class="byte">Byte</span><span
+                            class="sign">&lt;/&gt;</span></a>
+                </div>
+                <!-- lists -->
+                <div class="nav-lists-container">
+                    <ul class="nav-lists">
+                        <li><a href="#first-section" title="click for home page">Home</a></li>
+                        <li><a href="#about-section" title="click to learn about me">About</a></li>
+                        <li><a href="#skills-section" title="click to see my skills">Skills</a></li>
+                        <li><a href="#projects-section" title="click to see my projects">Projects</a></li>
+                        <li><a href="#blog-section" title="click to see my projects">Blog</a></li>
+                        <li><a href="#contact-section" title="click to connect with me">Contact</a></li>
+                    </ul>
+                </div>
+                <!-- themes -->
+                <div class="theme-options">
+                    <button class="theme-option" id="coffee" title="coffee-theme" onclick="coffeeTheme()"></button>
+                    <button class="theme-option" id="blue" title="blue-theme" onclick="blueTheme()"></button>
+                    <button class="theme-option" id="yellow" title="yellow-theme" onclick="yellowTheme()"></button>
+                </div>
+            </div>
+        </nav>
+        <!-- line -->
+        <div class="horizontal-line"></div>
+    </header>
+
+    <!-- main -->
+    <main>
+
+
+        <!-- first section -->
+        <section class="first-section" id="first-section">
+            <div class="left-section">
+                <span id="greet">hey, I am</span>
+                <span id="name">Babi Sunar</span>
+                <span id="text"></span>
+                <span id="welcome-text">&#128583; Welcome To My Portfolio !</span>
+            </div>
+            <div class="right-section" title="It's me.."> <span id="slogon">"Bytes of Brilliance"</span></div>
+        </section>
+
+        <!-- line -->
+        <div class="horizontal-line"></div>
+        <!-- <div class="vertical-line"></div> -->
+
+        <!-- about section -->
+        <section class="section" id="about-section">
+            <span class="title-text">About me <img src="about-me.png" alt="image"></span>
+            <div class="about-container">
+                <div class="left-about">
+                    <img id="my-img" src="pic1.jpeg" alt="my-pic-in-about" onclick="imgClicked()"
+                        title="click for next..">
+                    <span id="text">"Turning ideas into clean, functional code"</span>
+                </div>
+                <div class="right-about">
+                    <div class="intro"><b style="color: #FFB22C;">Hi, I'm Babi Sunar</b> &#128075; <br> A Computer
+                        Engineering student and aspiring monstack developer passionate about building modern,
+                        user-friendly web applications. Also I'm the founder of <span
+                            style="color:#FFB22C">SunByte</span>.</div>
+                    <div class="what-i-do">I specialize in creating responsive websites using HTML, CSS, and JavaScript,
+                        and I'm continuously learning modern frameworks and backend technologies to become a full-stack
+                        monstack developer.&#128640;</div>
+                    <div class="my-journey">Currently I'm in 5th semester of computer Science, I'm building real-world
+                        projects and preparing for my upcoming internship. I believe in learning by building and
+                        improving every day. <a href="about.html">click to learn more about me</a></div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- line -->
+        <div class="horizontal-line"></div>
+
+
+
+
+        <!-- skills section -->
+        <section class="section" id="skills-section">
+            <span class="title-text">My Skills <img src="skills.png" alt="image"></span>
+            <div class="skills-container">
+                <!-- Development/Coding skills -->
+                <div id="development" class="container">
+                    <span style="color: #FFB22C;">Development/Coding skills</span>
+                    <div class="horizontal-line"></div>
+                    <div id="development-subcontainer" class="subcontainer">
+                        <div id="html-img" class="img"><img src="html.png" alt="html-img"></div>
+                        <div id="html-text" class="text"><a href="https://www.w3schools.com/html/"><b>HTML5</b></a> -
+                            Semantic and SEO-friendly structure</div>
+                        <div id="css-img" class="img"><img src="css.png" alt="css-img"></div>
+                        <div id="css-text" class="text"><a href="https://www.w3schools.com/css/"><b>CSS3</b></a> -
+                            Responsive design, Flexbox, Grid, Animations</div>
+                        <div id="js-img" class="img"><img src="js.png" alt="js-img"></div>
+                        <div id="js-text" class="text"><a href="https://www.w3schools.com/js/"><b>JavaScript</b></a> -
+                            DOM manipulation, events, basic logics </div>
+                        <div id="responsive-img" class="img"><img src="res.png" alt="resp-img"></div>
+                        <div id="responsive-text" class="text"><a
+                                href="https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Responsive_Design"><b>Responsive
+                                    Web Design</b></a> - Mobile-first layouts</div>
+                        <div id="c-img" class="img"><img src="c.png" alt="c/cpp-img"></div>
+                        <div id="c-text" class="text"><a
+                                href="https://en.wikipedia.org/wiki/C_(programming_language)"><b>C/C++</b></a> -Basic
+                            foundation and logic building</div>
+                        <!-- link for learn more about my skills -->
+                        <div></div>
+                        <div><a href="skills.html">click to learn more about my skills</a></div>
+                    </div>
+                </div>
+
+                <!-- tools and technologies -->
+                <div id="tools" class="container">
+                    <span style="color: #FFB22C;">Tools & Technologies</span>
+                    <div class="horizontal-line"></div>
+                    <div id="tools-subcontainer" class="subcontainer">
+                        <div id="git-img" class="img"><img src="git.png" alt="git-image"></div>
+                        <div id="git-text" class="text"><a href="https://github.com"><b>Git & GitHub</b></a> -Version
+                            control</div>
+                        <div id="vs-img" class="img"><img src="vs.png" alt="vs-code-image"></div>
+                        <div id="vs-text" class="text"><a href="https://code.visualstudio.com/"><b>VS-code</b></a>
+                            -Development environment</div>
+                        <div id="browser-img" class="img"><img src="browser.png" alt="browser-image"></div>
+                        <div id="browser-text" class="text"><a
+                                href="https://developer.chrome.com/docs/devtools"><b>Browser DevTools</b></a> -Debugging
+                            & testing</div>
+                        <div id="ai-img" class="img"><img src="ai.png" alt="ai-image"></div>
+                        <div id="ai-text" class="text"><a
+                                href="https://zapier.com/blog/best-ai-productivity-tools/"><b>AI
+                                    tools</b></a> -AI tools (Cloud, ChatGPT, Perplexity etc.)</div>
+                        <!-- link for learn more about my skills -->
+                        <div></div>
+                        <div><a href="skills.html">click to learn more about my skills</a></div>
+                    </div>
+                </div>
+
+                <!-- currently learning -->
+                <div id="currently-learning" class="container">
+                    <span style="color: #FFB22C;">Currently Learning    (Coming soon 🚀)</span>
+                    <div class="horizontal-line"></div>
+                    <div id="tools-subcontainer" class="subcontainer">
+                        <div id="reactjs-img" class="img"><img src="react.png" alt="react-image"></div>
+                        <div id="reactjs-text" class="text"><a href="https://react.dev/"><b>React.js</b></a>
+                            -open-source JS lib. for building UIs</div>
+                        <div id="exp_js-img" class="img"><img src="express-js.png" alt="express-js-image"></div>
+                        <div id="exp_js-text" class="text"><a
+                                href="https://expressjs.com/"><b>ExpressJS</b></a>
+                            -Minimalist web framework for Node.js</div>
+                        <div id="nodejs-img" class="img"><img src="nodejs.png" alt="nodejs-image"></div>
+                        <div id="nodejs-text" class="text"><a href="https://nodejs.org/en"><b>Node.js</b></a>-JS runtime
+                            environment </div>
+                        <div id="mongodb-img" class="img"><img src="mongodb.png" alt="mongodb-image"></div>
+                        <div id="mongodb-text" class="text"><a href="https://www.mongodb.com/"><b>MongoDB</b></a>-open
+                            source, NoSQL
+                            DB </div>
+                        <div id="tailwind-img" class="img"><img src="tailwind-img.svg" alt="tailwind-image"></div>
+                        <div id="tailwind-css-text" class="text"><a href="https://www.tailwindcss.com/"><b>Tailwind</b></a>
+                            - Utility-first CSS framework for styling.</div>
+                        <div id="type-script-img" class="img"><img src="type-script.svg" alt="TypeScript-image"></div>
+                        <div id="type-script-text" class="text"><a href="https://www.typescript.com/"><b>Type
+                                    Script</b></a>-Typed superset of modern JavaScript.</div>
+                        <!-- link for learn more about my skills -->
+                        <div></div>
+                        <div><a href="skills.html">click to learn more about my skills</a></div>
+                    </div>
+                </div>
+
+                <!-- soft skills -->
+                <div id="soft-skills" class="container">
+                    <span style="color: #FFB22C;">Soft skills</span>
+                    <div class="horizontal-line"></div>
+                    <div id="soft-skills-subcontainer" class="subcontainer">
+                        <div id="soft-skills-img" class="img"><img src="soft-skills.png" alt="soft-skills-img"></div>
+                        <div id="soft-skills-text" class="text">-Problem Solving</div>
+                        <div id="soft-skills-img" class="img"><img src="soft-skills.png" alt="soft-skills-img"></div>
+                        <div id="soft-skills-text" class="text">-Self Learner & Fast Learner</div>
+                        <div id="soft-skills-img" class="img"><img src="soft-skills.png" alt="soft-skills-img"></div>
+                        <div id="soft-skills-text" class="text">-Team Collaboration</div>
+                        <div id="soft-skills-img" class="img"><img src="soft-skills.png" alt="soft-skills-img"></div>
+                        <div id="soft-skills-text" class="text">-Good Communication</div>
+                        <div id="soft-skills-img" class="img"><img src="soft-skills.png" alt="soft-skills-img"></div>
+                        <div id="soft-skills-text" class="text">-Time Management</div>
+                        <!-- link for learn more about my skills -->
+                        <div></div>
+                        <div><a href="skills.html">click to learn more about my skills</a></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- line -->
+        <div class="horizontal-line"></div>
+
+        <!-- Projects section -->
+        <section id="projects-section" class="section">
+            <span class="title-text">My Projects <img src="project.png"
+                    alt="image">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span
+                    id="project-count" style="color: #ffb22c87; font-size: 2vw;"></span></span>
+            <div class="project-container">
+                <div class="project-name"><a href="https://babi-sunar.github.io/Robotics_club_webpage/"
+                        title="click to open">Robotics Club of LEC</a></div>
+                <div class="project-description">
+                    <div class="vertical-line"></div>
+                    <div class="description-text">
+                        I created a responsive web page (prototype) for The Robotics Club of LEC. This is club of my
+                        college that
+                        organize different IT programs. The page was developed using HTML, CSS and JS. All codes are
+                        written by myself (not AI) for my skill development. You can check it out on my GitHub account
+                        Babi-Sunar. link: <a href="https://babi-sunar.github.io/Robotics_club_webpage/">click
+                            to open on Browser</a>
+                    </div>
+                </div>
+
+                <div class="project-name"><a href="https://babi-sunar.github.io/Star-pattern-generator/"
+                        title="click to open">Star pattern generator</a></div>
+                <div class="project-description">
+                    <div class="vertical-line"></div>
+                    <div class="description-text">
+                        I created a web application that will generate different simple and complex star patterns (like,
+                        triangle, diamond, hollow diamond and many more), using HTML, CSS, JS. The application will
+                        create the pattern and also provides you the logic of that pattern. You can check it out on my
+                        GitHub account
+                        Babi-Sunar. link: <a href="https://babi-sunar.github.io/Star-pattern-generator/">click
+                            to open on Browser</a>
+                    </div>
+                </div>
+
+                <div class="project-name"><a href="https://babi-sunar.github.io/Counter_app/"
+                        title="click to open">Counter App</a></div>
+                <div class="project-description">
+                    <div class="vertical-line"></div>
+                    <div class="description-text">
+                        This was my very first simple project using HTML, CSS and JS (local storage).This is a ver
+                        simple interface with some buttons to increase or decrease the count value. The project helped
+                        me to understand the local storage in JS. You can check it out on my GitHub account
+                        Babi-Sunar. link: <a href="https://babi-sunar.github.io/Counter_app/">click
+                            to open on Browser</a>
+                    </div>
+                </div>
+
+                <div class="project-name"><a href="https://babi-sunar.github.io/Stone_Paper_Seissor-Game/"
+                        title="click to open">Stone Paper Seizor Game</a></div>
+                <div class="project-description">
+                    <div class="vertical-line"></div>
+                    <div class="description-text">
+                        I created a game called Stone Paper Seizor. In this game, there are three choices (stone, paper
+                        or seizor) using JS logics. The user make a choice among them and the cpu also make a choice.
+                        The rule is stone beats seizor, the seizor beats paper and the paper beats stone. You can check
+                        it out on my GitHub account
+                        Babi-Sunar. link: <a href="https://babi-sunar.github.io/Stone_Paper_Seissor-Game/">click
+                            to open on Browser</a>
+                    </div>
+                </div>
+
+                <div class="project-name"><a href="https://babi-sunar.github.io/Guess-the-number-game/"
+                        title="click to open">Guess the number Game</a></div>
+                <div class="project-description">
+                    <div class="vertical-line"></div>
+                    <div class="description-text">
+                        I created a game using HTML, CSS and JS logics, the game have simple rule that, you have to
+                        guess the correct number from 1 to 100. The less you hit the incorrect trials, the more you will
+                        get the point. You can check it out on my GitHub account
+                        Babi-Sunar. link: <a href="https://babi-sunar.github.io/Guess-the-number-game/">click
+                            to open on Browser</a>
+                    </div>
+                </div>
+
+                <div class="project-name"><a href="https://github.com/Babi-Sunar/Simple-UI-using-JAVA"
+                        title="click to open">UI using JAVA</a></div>
+                <div class="project-description">
+                    <div class="vertical-line"></div>
+                    <div class="description-text">
+                        I created a UI application using JAVA swing that takes string as input and have three buttond
+                        for, checking palindrome, finding reverse and finding vowels, the result will be shown on the
+                        text result text area. You can check it out on my GitHub account
+                        Babi-Sunar. link: <a href="https://github.com/Babi-Sunar/Simple-UI-using-JAVA">click
+                            to open on GitHub</a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- line -->
+        <div class="horizontal-line"></div>
+
+        <!-- blog section -->
+        <section class="section" id="blog-section">
+            <span class="title-text">Blogs <img src="blog.png" alt="image"></span>
+            <div class="blog-container">
+                <div id="blog-text">I write blogs to document my learning journey in web development, share practical
+                    lessons from projects, and explain concepts in a simple way.
+                    <a href="blog1.html">Click to read more -></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- line -->
+        <div class="horizontal-line"></div>
+
+        <!-- contact section -->
+        <section class="section" id="contact-section">
+            <span class="title-text">Contacts <img src="contact.png" alt="image"></span>
+            <div class="contact-container">
+                <span class="contact-text">You can contact me on </span>
+                <div class="phone-mail">
+                    <span class="phone-mail-text" id="phone-number">Phone : +977-9866153193</span>
+                    <span class="phone-mail-text" id="mail">Email : babi.sunar3737@gmail.com</span>
+                </div>
+                <div class="contact-img-container">
+                    <a href="https://www.facebook.com/bobby.sunar.3114"><img src="facebook.png" alt="facebook"
+                            class="contact-img" title="click to connect"
+                            style="background-color: rgba(12, 103, 188, 0.801);"></a>
+                    <a href="https://www.linkedin.com/in/babi-sunar-17aa64287"><img src="linkedin.png" alt="linkedin"
+                            class="contact-img" title="click to connect"
+                            style="background-color: rgb(9, 104, 176);"></a>
+                    <a href="https://wa.me/9779866153193"><img src="whatsapp.png" alt="whatsapp" class="contact-img"
+                            title="click to connect" style="background-color: rgba(3, 131, 20, 0.758);"></a>
+                    <a href="https://www.youtube.com/@BabiSunar-s7s"><img src="youtube.png" alt="youTube"
+                            class="contact-img" title="click to connect"
+                            style="background-color: rgba(255, 13, 13, 0.658);"></a>
+                    <a
+                        href="https://www.instagram.com/invites/contact/?utm_source=ig_contact_invite&utm_medium=copy_link&utm_content=x57gvfg"><img
+                            src="instagram.png" alt="instagram" class="contact-img" title="click to connect"
+                            style="background-color: rgba(194, 19, 159, 0.829);"></a>
+                    <a
+                        href="https://www.instagram.com/invites/contact/?utm_source=ig_contact_invite&utm_medium=copy_link&utm_content=x57gvfg"><img
+                            src="git.png" alt="instagram" class="contact-img" title="click to connect"
+                            style="background-color: antiquewhite;"></a>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- line -->
+        <div class="horizontal-line"></div>
+    </main>
+
+
+    <!-- footer -->
+    <footer>
+        <div id="footer-container">
+            <div id="footer-logo" class="sun-byte" title="My brand name"
+                style="display: flex; justify-content: center;">
+                <a href="#first-section">
+                    <span class="sun">Sun</span><span class="byte">Byte</span><span class="sign">&lt;/&gt;</span></a>
+            </div>
+            <div class="horizontal-line"></div>
+            <div id="footer-content">
+                <span id="footer-name">:) Babi Sunar</span>
+                <div id="footer-list">
+                    <ul class="footer-lists">
+                        <li><a href="#first-section" title="click for home page">Home</a></li>
+                        <li><a href="#about-section" title="click to learn about me">About</a></li>
+                        <li><a href="#skills-section" title="click to see my skills">Skills</a></li>
+                        <li><a href="#projects-section" title="click to see my projects">Projects</a></li>
+                        <li><a href="#blog-section" title="click to see my projects">Blog</a></li>
+                        <li><a href="#contact-section" title="click to connect with me">Contact</a></li>
+                    </ul>
+                </div>
+                <div id="footer-slogon">"Bytes Of Brilliance"</div>
+            </div>
+            <div class="horizontal-line"></div>
+            <div id="footer-citation">© 2026 Babi Sunar. All rights reserved.</div>
+        </div>
+    </footer>
+
+    <!-- line -->
+    <div class="horizontal-line"></div>
+
+    <!-- script -->
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#text', {
+            strings: ['I am a <b>Computer Engineering</b> student of Lumbini Engineering, Management and Science College, Nepal. Also, a Passionate <b>JS Web Developer</b> (especially Front-end development) with <b>programming knowledge</b> and <b>problem solving </b>skills. Also, I am the Founder of <b>SunByte</b>.'],
+            typeSpeed: 20,
+        });
+    </script>
+</body>
+
+</html>

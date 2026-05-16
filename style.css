@@ -479,6 +479,7 @@ header {
     gap: 1vw;
     border-bottom-right-radius: 3vw;
     border-top-right-radius: 3vw;
+    padding: 0px 2vw;
 }
 
 .project-name a {
